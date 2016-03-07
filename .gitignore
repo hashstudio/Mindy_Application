@@ -1,0 +1,6 @@
+.idea
+*.iml
+*.swp
+vendor
+composer.lock
+build

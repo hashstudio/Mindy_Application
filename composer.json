@@ -1,0 +1,42 @@
+{
+  "name": "hindy/application",
+  "homepage": "https://github.com/hashstudio/Mindy_Application",
+  "version": "0.3",
+  "type": "library",
+  "license": "BSD-3-Clause",
+  "autoload": {
+    "psr-4": {
+      "Mindy\\Application\\": "src/Mindy/Application"
+    }
+  },
+  "require": {
+    "php": ">=5.4",
+    "hindy/exception": "0.*",
+    "hindy/di": "0.*",
+    "hindy/helper": "0.*",
+    "hindy/console": "0.*",
+    "hindy/locale": "0.*",
+    "hindy/controller": "0.*",
+    "hindy/http": "0.*",
+    "hindy/middleware": "0.*",
+    "hindy/logger": "1.*",
+    "hindy/router": "0.*",
+    "hindy/event": "0.*",
+    "hindy/security": "0.*",
+    "hindy/session": "0.*"
+  },
+  "require-dev": {
+    "satooshi/php-coveralls": "dev-master"
+  },
+  "authors": [
+    {
+      "name": "Maxim Falaleev",
+      "email": "max@studio107.ru",
+      "homepage": "http://studio107.ru",
+      "role": "Developer"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/hashstudio/Mindy_Application/issues?state=open"
+  }
+}
